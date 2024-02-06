@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+}
+
+.main-logo {
+    padding-left: 60px;
+}
+
+.buttom-login {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-right: 60px;
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.login {
+    align-self: center;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+h1 {
+    color: white;
+    font-size: 56px;
+    text-align: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 32px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+h3 {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)60%, rgba(0, 0, 0, 0.8)100%), url("/assets/img/fundo-netflix.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main-blockpage {
+    width: 1200px;
+    height: 600px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cadastro {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+#send-buttom {
+    background-color: red;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+#box-email {
+    width: 500px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#sale-notification {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.mensage {
+    display: block;
+    width: 100%;
+    background-color: black;
+    height: 1080px;
+}
+
+.sale-box {
+    position: absolute;
+    top: 600px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: radial-gradient(51.39% 511.66% at 47.68% -217.91%, #ff9900 0%, #e50914 17.27%, #0e1b4f 79.44%, #000413 100%);
+    width: 80%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#text-sale {
+    font-weight: lighter;
+    color: white;
+    font-size: 21px;
+    margin-bottom: 17px;
+}
+
+#more-info {
+    color: #498ef4;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.enjoy-mensage {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: start;
+}
+
+#enjoy-on-tv {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#enjoy-displays {
+    font-size: 24px;
+}
+
+.sale-box-image {
+    margin-right: 50px;
+}
+
+.tv {
+    position: relative;
+}
+
+.tv-image {
+    width: 100%;
+    height: auto;
+}
+
+.screen {
+    position: absolute;
+    background-image: url('/assets/img/WhatsApp\ Image\ 2024-01-27\ at\ 19.26.10.jpeg');
+    background-position: 0px 530px;
+    background-size: cover;
+    width: 465px;
+    height: 260px;
+    top: 100px;
+    left: 85px;
+}
+
+.adsense {
+    position: absolute;
+    width: 465px;
+    height: 260px;
+    top: 100px;
+    left: 85px;
+}
